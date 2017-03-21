@@ -15,4 +15,4 @@ curl-host:
 	curl -XGET $(shell docker-machine ip):8080/hello
 
 curl-docker:
-	docker run -t --rm --link go-echo:go-echo appropriate/curl go-echo:8080/hello
+	docker run -t --rm --link go-echo appropriate/curl go-echo:8080/hello
